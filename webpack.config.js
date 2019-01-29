@@ -70,7 +70,6 @@ module.exports = {
     hot: true,
     host: '127.0.0.1',
     port: 9000,
-    https: true,
     proxy: {
       '/company/news/rss': {
         target: 'https://www.reg.ru/',
